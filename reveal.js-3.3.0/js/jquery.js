@@ -6,5 +6,5 @@
 // });
 
 Reveal.addEventListener('inhoudanimatie', function(event) {
-    $("#test").toggle("slide");
-}, false)
+   $("#test").toggle("slide");
+}, false);
