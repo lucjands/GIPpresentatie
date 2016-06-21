@@ -7,4 +7,4 @@
 
 Reveal.addEventListener('inhoudanimatie', function(event) {
     $("#test").toggle("slide");
-}, false)
+}, false);
