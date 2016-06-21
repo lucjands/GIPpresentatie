@@ -623,7 +623,7 @@ var Slider = (function () {
         }
     };
     Slider.prototype.set_play_pause = function (state) {
-        this.play_pause_button.text(state ? "Pause animation" : "Start animation");
+        this.play_pause_button.text(state ? "Pause animation" : "Start animatie");
         if (state && this.animation_id == null) {
             this.animation_id = setInterval(this.loop.bind(this), 16);
             if (this.position == this.max_value) {
@@ -1274,8 +1274,8 @@ function makeDiagram1() {
         [DraggableMarkerLayer, 'start', svg_blob(20), options.starts, 0]
     ]);
     new Slider("#diagram1", [diagram]);
-    d3.select("#diagram1 .step_back").text("< Step backward");
-    d3.select("#diagram1 .step_forward").text("Step forward >");
+    d3.select("#diagram1 .step_back").text("< Stap terug");
+    d3.select("#diagram1 .step_forward").text("Stap voorwaarts >");
     return diagram;
 }
 var diagram1 = makeDiagram1();
