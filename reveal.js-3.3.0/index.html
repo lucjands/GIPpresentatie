@@ -56,8 +56,9 @@
                 <style>
 				
 				.slides{
-					/*width: 100% !important;
-					max-width: 1080px;*/
+					width: 100% !important;
+					max-width: 1080px;
+										
 				}
 				
 				</style>
@@ -115,8 +116,13 @@
 					I2C</br>
 					<img src="images/Communicatie-Schema.PNG">
 				</section>
-				<section data-markdown>
-					## GPS
+				<section>
+					GPS</br>
+                    <img src="images/constellation.jpg">
+				</section>
+                <section>
+					test</br>
+                    <img src="images/test.png">
 				</section>
 				<section data-markdown>
 					## A*-search
@@ -208,6 +214,7 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+        <script src="js/jquery-2.2.4.min.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -215,7 +222,7 @@
 				history: true,
 				controls: false,
 				width: 1080,
-    			height: 720,
+    			height: $(window).height(),
 				minScale: 1.0,
 				maxScale: 1.0,
 				transition: 'fade',
@@ -229,7 +236,6 @@
 				]
 			});
 		</script>
-		<script src="js/jquery-2.2.4.min.js"></script>
 		<script src="js/jquery.js"></script>
 	</body>
 </html>

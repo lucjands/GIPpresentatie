@@ -5,6 +5,10 @@
 //     });
 // });
 
+$(document).ready(function(e) {
+    $('img').css('max-height',$(window).height() - 200);
+});
+
 Reveal.addEventListener('inhoudanimatie', function(event) {
    //$("#test").toggle("slide");
    $("#i2c").show("slow");
