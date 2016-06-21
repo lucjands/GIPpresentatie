@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>De zelfrijdende auto</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -56,8 +56,8 @@
                 <style>
 				
 				.slides{
-					width: 100% !important;
-					max-width: 1080px;
+					/*width: 100% !important;
+					max-width: 1080px;*/
 				}
 				
 				</style>
@@ -67,7 +67,7 @@
 						<li>Google driverless car</li>
 						<li>Praktische proef</li>
 						<li>Lidar</li>
-						<li style="color:green;display:none" id="test">I²C</li>
+						<li style="color:green;display:none" id="i2c">I²C</li>
 						<li>GPS</li>
 						<li style="list-style-type:none;color:darkred;" id="test"><del>Kalman filter</del></li>
 						<li >A*-search</li>
@@ -75,25 +75,25 @@
 						<li style="list-style-type:none;color:darkred;" ><del>Simulatie software</del></li>
 					</ul>
 				</section>
-				<section data-state="vid">
-					<video id="intro_video" width="100%">
-                    	<source src="images/test1.mp4" type="video/mp4">
-                        Geen ondersteuning
-                    </video>
-                    </section>
-                <section>
-					Google driverless car
+                
+                
+                
+                
+                
+                <section data-state="inhoud_hide_i2c">
+					Google driverless car</br>
                 	<img src="images/Stanley2.JPG">                	
                 </section>
-				<section>
-					Google driverless car
-                    <img src="images/zelfrijdende-auto-google-volledig-functioneel.jpg">
+                <section data-state="inhoud_hide_i2c">
+					Google driverless car</br>
+                	<img src="images/zelfrijdende-auto-google-volledig-functioneel.jpg">                	
                 </section>
 				<section data-markdown>
 					## praktische proef
 				</section>
-				<section data-markdown>
-					## lidar
+				<section>
+					Lidar</br>
+                    <img src="images/PSC1013_RR_101.jpg">
 				</section>
 				<section data-markdown>
 					## I²C
@@ -104,6 +104,17 @@
 				<section data-markdown>
 					## A*-search
 				</section>
+                <section data-state="vid">
+					<video id="intro_video" width="100%">
+                    	<source src="images/test1.mp4" type="video/mp4">
+                        Geen ondersteuning
+                    </video>
+                </section>
+                    
+                    
+                    
+                    
+                    
 				<section>
 					Slide 1
 					<div id="1" style="overflow: hidden; margin: auto; align: center; max-width: 700px;">
